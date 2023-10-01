@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+#header .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+/* Style for the text elements */
+#header h1 {
+    padding-top: 140px;
+    font-size: 36px;
+    margin: 0;
+    color: rgb(162, 191, 46);
+    text-align: justify;
+}
+
+#header h3 {
+    font-size: 24px;
+    margin: 16px 0; 
+    text-align: justify;
+    color: rgb(29, 240, 255);
+}
+
+#header .btn-lrn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff; 
+    text-align: justify;
+}
+

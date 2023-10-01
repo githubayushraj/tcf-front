@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Muli", sans-serif;
+}
+
+.navbar{
+    background-color: cyan;
+}
+
+.navbar-brand{
+    font-size: 1.9rem;
+    color:black;
+}
+.navbar-link{
+    color:aquamarine;
+}
+.nav_bg{
+    background-color:white;
+}
+.navbar a:hover{
+    color: rgb(0, 124, 25);
+}
+.menu_active{
+    font-weight: bold;
+    border-radius: 30%,grey;
+    border-bottom: rgb(180, 245, 179);
+    border-bottom: 1px solid rgb(180, 245, 179);
+    
+}
